@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="main">
+        <div class="navbar">
+            <img src="pictures/logo.png" class="logo">
+
+            <ul>
+                <li><a href="#" onclick="scrollToSection('home')">HOME</a></li>
+                <li><a href="#" onclick="scrollToSection('about')">ABOUT</a></li>
+                <li><a href="#" onclick="scrollToSection('skills')">SKILLS</a></li>
+                <li><a href="#" onclick="scrollToSection('gallery')">GALLERY</a></li>
+                <li><a href="#" onclick="scrollToSection('contact')">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="info">
+            <h3>Hi, I'm <span>Cherold</span>.</h3>
+            <h1><span>W</span>EB <span>D</span>EVELOPER</h1>
+            <h3>Passionate about crafting effective websites
+                I'm dedicated <br> to refining my skills for a dynamic digital <br> presence.</h3>
+                <a href="#">Download CV</a>
+        </div>
+
+        <div class="image">
+            <img src="pictures/me.png" class="girl">
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/cherold.lomotan?mibextid=ZbWKwL" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://instagram.com/valdezcherold?igshid=YTQwZjQ0NmI0OA==" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://twitter.com/" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+    </div>
+
+    <!--About-->
+    <section id="about" class="about">
+        <div class="main1">
+            <img src="pictures/pic.png">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5><span>D</span>eveloper & <span>D</span>esigner</h5>
+                <p>
+                    As a Developer and Designer, I'm dedicated to the art of digital creation. Navigating the realms of coding and design, I bring passion and precision to crafting dynamic websites and visually captivating designs. My journey involves the seamless integration of technology and aesthetics, delivering impactful digital experiences.
+                </p>
+                <button> Let's Talk</button>
+            </div>
+
+        </div>
+
+    </section>
+
+     <!------Skills------->
+
+     <div id="skills" class="Skills">
+        <div class="title">
+            <h2> My Skills</h2>
+        </div> 
+
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-user"></i>
+                    <h5>Web Development</h5>
+                    <div class="pra">
+                        <p>
+                            I specialize in web development, bringing ideas to life through the power of coding. Proficient in HTML, CSS, and JavaScript, I create dynamic and user-friendly websites that seamlessly blend functionality and aesthetics.</p>
+
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                    </div>
+            </div>
+
+        <div class="card">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+                    <h5>Problem-Solving</h5>
+                    <div class="pra">
+                        <p>
+                            Adept at identifying and solving complex problems, I approach challenges with a strategic mindset. This problem-solving ability extends beyond coding to enhance the overall efficiency and effectiveness of projects.</p>
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                    </div>
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-clock"></i>
+                    <h5>Time Management</h5>
+                    <div class="pra">
+                        <p>
+                            With a keen sense of time management, I efficiently prioritize tasks and meet deadlines without compromising quality. This skill ensures the successful and timely completion of projects, professional growth.</p>
+
+                            <p style="text-align: center;">
+                                <a class="button" href="#">Read More</a>
+                            </p>
+                    </div>
+            </div>
+    </div>
+</div>
+
+<div id="gallery" class="gallery">
+    <div class="title">
+        <h2> My Gallery</h2>
+    </div> 
+    <a href="pictures/pic1.jpg"target="_blank"><img
+      src="pictures/pic1.jpg"
+      class="gallery__photo gallery__photo--p1"
+      alt=""
+    /></a>
+    <a href="pictures/pic2.jpg"target="_blank"><img
+      src="pictures/pic2.jpg"
+      class="gallery__photo gallery__photo--p2"
+      alt=""
+    /></a>
+    <a href="pictures/pic3.jpg"target="_blank"><img
+      src="pictures/pic3.jpg"
+      class="gallery__photo gallery__photo--p3"
+      alt=""
+    /></a>
+    <a href="pictures/pic4.jpg"target="_blank"><img
+      src="pictures/pic4.jpg"
+      class="gallery__photo gallery__photo--p4"
+      alt=""
+    /></a>
+    <a href="pictures/pic5.jpg"target="_blank"><img
+    src="pictures/pic5.jpg"
+    class="gallery__photo gallery__photo--p5"
+    alt=""
+  /></a>
+
+  </div>
+
+
+
+<!--Contact-->
+<div id="contact" class="contact-me">
+    <p>Feel free to reach out, and let's create something amazing together</p>
+    <a class ="button-two" href="#">Contact Me</a>
+    
+</div>
+
+
+
+
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+<script>
+    function scrollToSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+</script>
+</body>
+</html>

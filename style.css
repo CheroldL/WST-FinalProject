@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url('pictures/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -.7%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(230,104,59);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(36,32,30);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(230,104,59);
+}
+
+.info a{
+    text-decoration:  none;
+    color: #fff;
+    background: rgb(36,32,30);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(59,174,209);
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-55%);
+    bottom: 0;
+    transition: left 2s ease;
+}
+
+.image:hover .girl{
+    left: 55%;
+}
+
+.social a{
+    text-decoration: none;
+    color: #000;
+}
+
+.social ion-icon{
+    margin-left: 7%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+    
+}
+
+.social ion-icon:hover{
+    color: rgb(59,174,209);
+}
+
+.about{
+    margin-top: 0px;
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #d2d7dd;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+    
+}
+.main1{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.about-text h2{
+    color: rgb(36,32,30);
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5{
+    color:rgb(36,32,30);
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about span{
+    color: rgb(230,104,59);
+}
+
+.about-text p{
+    color:black;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+button{
+    background-color:rgb(230,104,59);
+    color:black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border:2px solid rgb(230,104,59);
+    cursor:pointer;
+
+}
+
+.skills{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2{
+    color: rgb(36,32,30);
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+.card{
+    height: 420px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #b5bcc5;
+    border-radius: 20px;
+    margin:15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(230,104,59);
+}
+
+h5{
+    color:black;
+    font-size: 23px;
+    margin-bottom: 15;
+}
+
+.pra p{
+    color: #5d5d5d;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card .button{
+    background-color:rgb(230,104,59);
+    color:black;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 13px 22px;
+    border-radius: 30px;
+    transition: .4s;
+} 
+
+.card .button:hover{
+    background-color: transparent;
+    border:2px solid rgb(230,104,59);
+    cursor:pointer;
+}
+
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background-image: url('pictures/contact\ bg.jpg');
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.contact-me p{
+    color: rgb(36,32,30);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two{
+    background-color:  rgb(230,104,59);
+    color:black;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.contact-me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid  rgb(230,104,59);
+    cursor: pointer;
+}
+
+.gallery {
+    width: 1000px;
+    height: 750px;
+    margin: 0 auto;
+    position: relative;
+    padding: 100px 0px;
+    background-color: transparent;
+    ;
+  }
+
+.gallery .title h2{
+    color: rgb(36,32,30);
+    font-size: 75px;
+    width: 1130px;
+    left: -50px;
+    position: absolute;
+}
+  
+  .gallery__photo {
+    width: 295px;
+    height: 295px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+  
+    position: absolute;
+    transition: all 0.2s;
+    z-index: 10;
+    outline-offset: 20px;
+  }
+  
+  .gallery__photo--p1 {
+    top: 270px;
+    left: 0;
+  }
+  
+  .gallery__photo--p2 {
+    top: 270px;
+    right: 0;
+    z-index: 1;
+  }
+  
+  .gallery__photo--p3 {
+    top: 325px;
+    left: 20%;
+  }
+  
+  .gallery__photo--p4 {
+    top: 345px;
+    left: 40%;
+  }
+  
+  .gallery__photo--p5 {
+    top: 325px;
+    left: 60%;
+    z-index: 2;
+  }
+  
+  .gallery__photo:hover {
+    outline: 15px solid #ea1538;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05) translateY(-20px);
+    z-index: 20;
+  }
+  .gallery:hover .gallery__photo:not(:hover) {
+    transform: scale(0.9);
+  }
+  
